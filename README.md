@@ -3,7 +3,7 @@
 $ cd compiler
 $ docker build -t compiler .
 $ cd ..
-$ docker run --rm -it compiler /bin/bash
+$ docker run --rm -v ${PWD}:/app -it emcc /bin/bash
 app# yarn compile
 app# exit
 ```
