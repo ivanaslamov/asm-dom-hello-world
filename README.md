@@ -9,5 +9,5 @@ app# exit
 ```
 or simply call `yarn compile` otherwise
 
-- to install npm dependencies: `yarn install`
+- to install dependencies: `yarn install`
 - to start the app: `yarn start`
