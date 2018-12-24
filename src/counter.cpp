@@ -1,13 +1,10 @@
 #include "../asm-dom/cpp/asm-dom.hpp"
 #include "counter.hpp"
-#include "helpers.hpp"
 #include <emscripten/val.h>
 #include <functional>
 #include <algorithm>
 #include <vector>
 #include <string>
-
-using namespace app::helpers;
 
 namespace app {
 
