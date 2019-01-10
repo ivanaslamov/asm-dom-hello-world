@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt update
-RUN apt install -y git python2.7 nodejs cmake default-jre xz-utils
+RUN apt install -y git python2.7 nodejs cmake default-jre xz-utils gnupg
 
 RUN ln -s /usr/bin/python2.7 /usr/bin/python
 
